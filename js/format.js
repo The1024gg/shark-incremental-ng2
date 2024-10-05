@@ -457,9 +457,9 @@ function formatLength(x) {
     return format(x.div(1e-33), 3) + 'mcm';
   }
   else if (x.lt(1e-27)) {
-    return format(x.div(1e-30), 3) + 'vm';
+    return format(x.div(1e-30), 3) + 'qm';
 } else if (x.lt(1e-24)) {
-    return format(x.div(1e-27), 3) + 'xm';
+    return format(x.div(1e-27), 3) + 'rm';
 } else if (x.lt(1e-21)) {
     return format(x.div(1e-24), 3) + 'ym';
 } else if (x.lt(1e-18)) {
@@ -496,12 +496,12 @@ function formatLength(x) {
   return format(x.div(3.086e22), 3) + 'Mpc';
 } else if (x.lt(3.086e27)) { 
   return format(x.div(3.086e25), 3) + 'Gpc';
-} else if (x.lt('e4.91e309')) { 
+} else if (x.lt('e1000000027')) { 
   return format(x.log(3.086e27), 3) + ' uni';
-} else if (x.lt('1F5')) { 
-  return format(x.log(3.086e27).log(1.79e308), 3) + ' mlt';
-} else if (x.gte('1F5')) { 
-  return format(x.log(3.086e27).log(1.79e308).slog(1.79e308), 3) + ' omn';
+} else if (x.lt('ee21')) { 
+  return format(x.log('e1000000027'), 3) + ' mlt';
+} else if (x.gte('ee30')) { 
+  return format(x.log('ee21'), 3) + ' mgv';
 }
 
 
