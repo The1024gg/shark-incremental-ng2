@@ -432,6 +432,9 @@ LANGUAGES.EN = {
             't1': [`Trajectory Automation`,`Automates all ${toTextStyle('Trajectory','traject')} upgrades without spending currencies. <i>This research doesn’t get reset.</i>`],
             't2': [`Trajectory Improvement`,`Improves ${toTextStyle('Trajectory','traject')} gain formula even better.`],
             't3': [`Trajectory Generation`,`Generates 100% of your ${toTextStyle('Trajectories','traject')} gained on reset. <i>This research doesn’t get reset.</i>`],
+
+            'hydrogen': [`???`,`???`],
+            'helium': [`???`,`???`],
         },
 
         // Exploration
