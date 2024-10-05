@@ -29,6 +29,9 @@ const U_MILESTONES = [
     },{
         unl:()=>true,
         req:()=>player.universe.size.gte('e5,387,921'),
+    },{
+        unl:()=>true,
+        req:()=>player.universe.size.gte('ee9'),
     },
 
 
