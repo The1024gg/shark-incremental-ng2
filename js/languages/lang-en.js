@@ -112,6 +112,7 @@ LANGUAGES.EN = {
         'tab-singularity-milestones': toTextStyle('Singularity','black-hole') + " Milestones",
         'tab-solar-system': "Solar System",
         'tab-constellation': toTextStyle('Constellation','star'),
+        'tab-elements': toTextStyle('Elements','universe'),
 
         'tab-universe': toTextStyle('Universe','universe'),
         'tab-universe-size': toTextStyle('Universe','universe') + " Size",
