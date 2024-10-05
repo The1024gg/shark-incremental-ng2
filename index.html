@@ -49,6 +49,7 @@
     <script src="js/features/solar-system.js"></script>
     <script src="js/features/constellation.js"></script>
     <script src="js/features/universe.js"></script>
+    <script src="js/features/elements.js"></script>
 
     <script src="js/features/resets.js"></script>
 
@@ -345,6 +346,31 @@
             <p id="constellation-base"></p>
             <div id="constellation-boosts-table" class="table-center">
                 <div class="constellation-boost"><div style="min-height: 40px;">You have <span>???</span> <span></span> placeholder.</div><br class="line"><div>???</div></div>
+            </div>
+        </div>
+        <div class="table-center" style="align-items: center;">
+                <div id="radio-max-research-amt" class="input-radio"></div>
+                <div style="margin: 10px; align-items: center;" class="table-center" id="research-page-div">
+                    <button style="height: 40px; width: 40px;" onclick="changeResearchPage(-1)">◀</button>
+                    <div>
+                        <input type="number" value="1" min="1" step="1" id="research-page" class="no-arrows">
+                        <div id="research-total-pages"></div>
+                    </div>
+                    <button style="height: 40px; width: 40px;" onclick="changeResearchPage(1)">▶</button>
+                </div>
+                <div id="radio-visible-research" class="input-radio"></div>
+        </div><div id="elements-tab">
+            <div id="research-table">
+                <div class="research-div">
+                    <div class="research-name">Prestigious Agility</div>
+                    <div class="research-desc">'Shark Agility' now affects the base of <text-style text="shark">Shark</text-style> Level's <text-style text="prestige">Prestige</text-style> Shard bonus at a reduced rate.</div>
+                    <div class="research-short-text"><b>Require:</b> 10,000,000 Prestige Shard</div>
+                    <div class="research-status">
+                        <div><b>Not Purchased</b></div>
+                        <div><b>Effect:</b> +0.41</div>
+                    </div>
+                    <button class="research-button">Purchase</button>
+                </div>
             </div>
         </div>
 
