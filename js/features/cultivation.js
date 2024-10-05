@@ -82,6 +82,12 @@ const ORES = {
         color: `linear-gradient(0deg, rgb(97,220,222) 0%, rgb(123,149,190) 50%, rgb(201,158,217) 100%)`,
         textColor: 'rgb(123,149,190)',
     },
+    'stone2': {
+        dense: '1e1000',
+        luck_penalty: 0.1,
+        color: `linear-gradient(0deg, rgb(128,128,128) 0%, rgb(170,170,170) 50%, rgb(128,128,128) 100%)`,
+        textColor: 'rgb(170,170,170)',
+    },
 }
 const ORE_KEYS = Object.keys(ORES)
 
@@ -188,7 +194,7 @@ const MINING_TIER = {
         return b
     },
 
-    ascend_base_milestone: [1,3,6,12,25,50],
+    ascend_base_milestone: [1,3,6,12,25,50,125],
     ascend_gen_milestone: [10,15,30,60,120],
 
     get ascend_base() {
