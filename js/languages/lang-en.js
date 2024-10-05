@@ -680,6 +680,7 @@ LANGUAGES.EN = {
             'californium': "Californium-252",
             'oganesson': "Oganesson-294",
             'sharkium': "Sharkium",
+            'stone2': "Stone MK. II",
         },
 
         'mined-resources-text': `Mined Resources`,
@@ -874,6 +875,7 @@ LANGUAGES.EN = {
                 [`${formatLength(1e246)} of ${toTextStyle('Universe', 'universe')} size`,`Gain more Rocket Parts from ${toTextStyle('Dark Matter','black-hole')}.`],
                 [`${formatLength('e27489.39')} of ${toTextStyle('Universe', 'universe')} size`,`Turn the ${toTextStyle('Fish','fish')} hardcap into a softcap.`],
                 [`${formatLength('e5387921')} of ${toTextStyle('Universe', 'universe')} size`,`Endgame for now, unlock the next feature.`],
+                [`${formatLength('e1000000027')} of ${toTextStyle('Universe', 'universe')} size`, `???`],
             ]
         },
         get 'rocket-milestones'() {
