@@ -262,6 +262,7 @@ const TABS = [
             ["singularity-milestones"],
             ["solar-system",()=>player.feature>=20],
             ["constellation",()=>isSSObserved('neptune')],
+            ["elements",()=>hasUMilestone(10)],
         ],
         style: {
             "background": `black url('textures/cosmic-pattern.png')`,
